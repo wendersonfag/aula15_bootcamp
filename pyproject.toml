@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "aula15-bootcamp"
+version = "0.1.0"
+description = ""
+authors = ["Wenderson <wenderson_fagundes@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pandas = "^2.2.2"
+boto3 = "^1.34.103"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
